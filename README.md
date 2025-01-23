@@ -26,7 +26,7 @@ This project is a movie recommendation system that provides both content-based a
 
 ## Usage
 
-1. Ensure you have the required data files in the `data` directory:
+1. Download the dataset from https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset/ , create a new directory named `data` and add the following files to it:
     - `movies_metadata.csv`
     - `ratings.csv`
 
@@ -41,10 +41,6 @@ The project is structured as follows:
 
 ```
 movieRecommendations/
-│
-├── data/
-│   ├── movies_metadata.csv
-│   └── ratings.csv
 │
 ├── src/
 │   ├── data_preparation.py
