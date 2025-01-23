@@ -23,6 +23,11 @@ This project is a movie recommendation system that provides both content-based a
     ```sh
     pip install -r requirements.txt
     ```
+   
+2.1 If you encounter any errors regarding some dependencies, try using Conda to install them:
+    ```sh
+    conda install -c conda-forge <package_name>
+    ```
 
 ## Usage
 
