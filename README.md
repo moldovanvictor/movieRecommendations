@@ -47,6 +47,10 @@ The project is structured as follows:
 ```
 movieRecommendations/
 │
+├── data/
+│   ├── movies_metadata.csv
+│   ├── ratings.csv
+│
 ├── src/
 │   ├── data_preparation.py
 │   ├── content_based.py
